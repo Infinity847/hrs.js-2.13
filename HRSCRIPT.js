@@ -103,7 +103,7 @@ function $ChangeAJAXlink(item) {
 AJAX$Link = item;
 }
 console.log(`
-HRSCRIPT VERSION 2.13
+HRSCRIPT VERSION 2.14
 
     HRSCRIPT 2
 
