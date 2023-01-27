@@ -49,6 +49,7 @@ return {
         `);
                     }
                 }else {
+                    $$ConfigBot=false;
                     for (i=0;i<Bot$Utterances.length;i++) {
                         if ($$ConfigBot == false){
         if (Bot$EventType == '=') {
