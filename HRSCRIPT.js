@@ -52,7 +52,7 @@ return {
                     for (i=0;i<Bot$Utterances.length;i++) {
                         if ($$ConfigBot == false){
         if (Bot$EventType == '=') {
-        if (item.toLowerCase() == Bot$Utterances[i].toLowerCase()) {
+        if (item == Bot$Utterances[i]) {
             $$ConfigBot = true;
             return Bot$Responses[i];
         }
