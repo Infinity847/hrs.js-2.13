@@ -64,8 +64,10 @@ return {
         }
         }
                 }
+                    if (!($$ConfigBot)){
                 //Alternative
                 return Bot$Alternatives[parseInt(Math.random())*parseInt(Bot$Alternatives.length)];
+                    }
                 }
                 },
                 EventType:function(item) {
